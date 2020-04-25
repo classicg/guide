@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Подключение JavaScript-->
+    <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <!--Подключение css файла от BootStrap-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+    <!--Подключение собственного css файла-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+<!--Навигационное меню-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="index.html">АИС Интернет-магазин</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#first">О программе</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#second">Как пользоваться</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#third">Разработчики</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--О программе-->
+  <section id="first">
+  <div class="container-fluid">
+    <div class="row text-center alert">
+        <div class="col-12">
+                <h1 class="display-4">О программе</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!--Три картинки-->
+    <div class="container">
+        <div class="row padding">
+            <div class="col-md-4">
+                <img src="img/1.png" class="img-fluid rounded" width="400">
+            </div>
+            <div class="col-md-4">
+                <img src="img/2.png" class="img-fluid rounded" width="400">
+            </div>
+            <div class="col-md-4">
+                <img src="img/3.png" class="img-fluid rounded" width="400">
+            </div>
+        </div>
+    </div>
+
+    <!--Описание программы-->
+    <div class="container text-center">
+        <h3>АИС Интернет-магазин Видеоигр, 
+            был разработан с помощью языка программирования C Sharp, 
+            написанный в Visual Studio 2019. Так же была разработана база данных для хранения, 
+            изменения, внесения и удаления товаров на платформе Microsoft Access.</h3>
+    </div>
+</section>
+
+    <!--Как пользоваться программой-->
+    <section id="second">
+    <div class="container-fluid">
+        <div class="row text-center alert">
+            <div class="col-12">
+                <h1 class="display-4">Как пользоваться</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+    
+    <!--Описание работы с программой-->
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h3>Окно «Авторизация»</h3>
+                <p>В поле Логин вводится логин пользователя.</p>
+                <p>В поле Пароль вводится пароль пользователя.</p>
+                <p>Логин и Пароль хранятся в базе данных Microsoft Access.</p>
+                <p>Для изменения Логина или Пароля потребуется отредактировать базу данных Acess.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/1.png" class="img-fluid rounded" width="400">
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h3>Окно «Главное меню»</h3>
+                <p>В Главном меню находятся разделы с нужной для вас таблицой и отчёт о продажах.</p>
+                <p>В разделах "Игры, Жанры, Разработчики и Заказы" находятся таблицы с определённой информацией.</p>
+                <p>В разделе Отчёт, формируется отчёт о продажах.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/2.png" class="img-fluid rounded" width="400">
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h3>Окно «Игры»</h3>
+                <p>В данном окне находится таблица с товарами.</p>
+                <p>Данная таблица имеет подпункты, а именно: Название игры, Описание, Жанр, Разработчик, Дата выхода, Сетевой режим и Цена.</p>
+                <p>Таблица берёт все данные из базы данных Access.</p>
+                <p>В таблицу можно добавлять, изменять, сохранять и удалять поля, как в самом окне так и в базе данных.</p>
+                <p>Так же имеется Поиск по названию игры. Вбивая туда нужную игру, можно её быстро найти.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/3.png" class="img-fluid rounded" width="400">
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h3>Окно «Жанры»</h3>
+                <p>В данном окне находится таблица с названием жанров.</p>
+                <p>Таблица берёт все данные из базы данных Access.</p>
+                <p>В таблицу можно добавлять, изменять, сохранять и удалять поля, как в самом окне так и в базе данных.</p>
+                <p>Так же имеется Поиск по названию жанра. Вбивая туда нужный жанр, можно его быстро найти.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/4.png" class="img-fluid rounded" width="400">
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h3>Окно «Разработчики»</h3>
+                <p>В данном окне находится таблица с название организации разработчиков.</p>
+                <p>Данная таблица имеет два подпункта: Название организации разработчика и Расположение.</p>
+                <p>Таблица берёт все данные из базы данных Access.</p>
+                <p>В таблицу можно добавлять, изменять, сохранять и удалять поля, как в самом окне так и в базе данных.</p>
+                <p>Так же имеется Поиск по названию организации. Вбивая туда нужную организацию, можно его быстро найти.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/5.png" class="img-fluid rounded" width="400">
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h3>Окно «Заказы»</h3>
+                <p>В данном окне находится таблица с заказами покупателей.</p>
+                <p>Данная таблица имеет пять подпунктов: Название заказа, Фамилия заказчика, Количество, Цена и Дата заказа.</p>
+                <p>Таблица берёт все данные из базы данных Access.</p>
+                <p>В таблицу можно добавлять, изменять, сохранять и удалять поля, как в самом окне так и в базе данных.</p>
+                <p>Так же имеется Поиск по названию игры. Вбивая туда нужную игру, можно её быстро найти.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/6.png" class="img-fluid rounded" width="400">
+            </div>
+        </div>
+        <hr>
+    </div> 
+
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h3>Окно «Отчёт»</h3>
+                <p>В данном окне находится таблица с отчётом о продажах.</p>
+                <p>Данная таблица имеет пять подпунктов: Название заказа, Фамилия заказчика, Количество, Цена и Дата заказа.</p>
+                <p>Таблица берёт все данные из таблицы «Заказы».</p>
+                <p>Редактировать отчёт в данном окне невозможно. Это делать надо в окне «Заказы».</p>
+                <p>Через данное окно можно распечатать отчёт на принтере нажав нужную кнопку, можно увеличить размер отчёта, можно сделать экспорт в Excel, PDF и Word документ.</p>
+                <p>Так же имеется поиск и кнопка сохранения.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/7.png" class="img-fluid rounded" width="600">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="third">
+<div class="container-fluid">
+    <div class="row text-center alert">
+        <div class="col-12">
+                <h1 class="display-4">Разработчики</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="offset-lg-2 col-lg-4">
+                <h1 class="display-5">Разработчики</h1>
+                <p>Каситов Владислав Вадимович aka Classic aka coronavirus</p>
+                <h1 class="display-5">Контактные данные</h1>
+                <p>Электронная почта: kasitovv@gmail.com</p>
+                <p><img src="img/deh.gif" width="300" height="200"></p>
+            </div>
+            <div class="offset-lg-1 col-lg-4">
+                <h1 class="display-5">Другое</h1>
+                <p>Программа является эксклюзивом для Техникума КТУИС. Распространение программы без разрешения автора категорически запрещенно. <br> Все права защищены.</p>
+                <h1 class="display-5">Благодарности</h1>
+                <p>nagibator3000 - за помощь в разработке АИС <br> Blum2008 - за помощь в написании сайта <br> tropikano99 - за вкусную шаурму <br> ramzes228 - за то что жмёт ногами 100 кг <br> а так же остальным, кто смог мне помочь (таких больше нет).</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Подвал сайта-->
+<footer class="page-footer font-small pt-4">
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+                <h5 class="text-uppercase">АИС Интернет-магазин Видеоигр</h5>
+                <p>Россия, г. Краснодар <br> Техникум КТУИС</p>
+                <p>Электронная почта: kasitovv@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2020. Все права защищены.</div>
+</footer>
+</body>
+</html>

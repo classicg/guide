@@ -1,0 +1,52 @@
+/* Подключение шрифта */
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto-Regular.ttf')
+}
+
+html,
+.body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Настройка черной линии в блоках*/
+.alert {
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.alert hr {
+    border-top: 2px solid #000;
+    width: 95%;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+/* Отступы у контейнеров */
+.padding {
+    padding-bottom: 1em;
+}
+
+.display-4 {
+    padding-top: 1.0em;
+}
+
+@media (max-width: 750px) {
+    .display-4 {
+        padding-top: 2em;
+    }
+}
+
+/* Адаптация текста под мобильные устройства */
+@media (max-width: 750px) {
+    .display-4 {
+        font-size: 30px;
+    }
+}
+
+/* Настройка подвала */
+footer {
+    background-color: #3f3f3f;
+    color: white;
+}
